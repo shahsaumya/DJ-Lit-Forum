@@ -229,6 +229,8 @@ MIDDLEWARE = [
     'misago.core.middleware.threadstore.ThreadStoreMiddleware',
 ]
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 ROOT_URLCONF = 'djlitforum.urls'
 
 TEMPLATES = [
